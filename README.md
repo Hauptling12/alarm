@@ -1,2 +1,2 @@
-# alarm
-alarm clock
+# ALPHA SOFTWARE
+## alarm clock program
