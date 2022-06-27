@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 var spawn = require("child_process").spawn;
+var db_file = "/home/" + process.env.USER + "/.local/share/alarm/alarms.json"
 var test = require(db_file);
 var music = "/home/" + process.env.USER + "/.local/share/alarm/alarm.wav"
-var db_file = "/home/" + process.env.USER + "/.local/share/alarm/alarms.json"
 function addZero(i) {
     if (i < 10) {i = "0" + i}
     return i;
