@@ -1,4 +1,4 @@
-# ALPHA SOFTWARE
+# alarm
 mange alarms in the cli
 ### man page
 + `-v` shows version
